@@ -24,15 +24,12 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Background { 
+  background-color: whitesmoke;
+  min-height: 100px;
+  min-width: 100px;
+  padding: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.red{
+  background-color: red;
 }
