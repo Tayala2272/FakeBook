@@ -2,7 +2,7 @@ import { createRef, useRef } from "react";
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-function EditableImage(props){
+function EditableField(props){
     var dialogElement = useRef(null);
     var ImageElement = useRef(null);
 
@@ -11,7 +11,7 @@ function EditableImage(props){
         const formData  = new FormData();
       
     formData.append("fileToUpload", dialogElement.current.files[0]);
-  
+  /*
     fetch('http://localhost/github/fakebook/PHP/API/UploadFile.php', {
         method: 'POST',
         body: formData,
@@ -35,12 +35,13 @@ function EditableImage(props){
     }
     return (
         <form onSubmit={submit} action="http://localhost/github/fakebook/PHP/API/UploadFile.php" method="post" onClick={OpenDialog}>
-        <input type="file" ref={dialogElement} name="fileToUpload" className="hidden" onChange={change}/>
-        <img className="profile-pic" ref={ImageElement} src={props.src} alt="Images/user.png"/>
+        <a>{props.name}</a>
+        <input type={props.type} ref={dialogElement} name="fileToUpload" className="" onChange={change}/>
         </form>
         
 
     );
+    */
 }
 
-export default EditableImage;
+export default EditableField;

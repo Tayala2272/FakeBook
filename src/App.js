@@ -1,14 +1,18 @@
 import './App.css';
 import Background from './Components/Background';
 import EditableImage from './Components/EditableImage';
+import EditableField from './Components/EditableField';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 
 function Thing(){
   return (
     <>
     <Background shit="sss">
     <EditableImage src="Images/user.png"></EditableImage>
+    <EditableField type="Text" name="LOL"></EditableField>
     </Background>
-    </>
+    </> 
   );
 }
 function App() {
@@ -16,7 +20,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       
-       <Thing><h1>agdgdgad</h1></Thing>
+       <Thing></Thing>
         
       </header>
     </div>
