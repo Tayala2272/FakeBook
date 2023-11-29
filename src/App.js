@@ -10,7 +10,12 @@ function Thing(){
     <>
     <Background shit="sss">
     <EditableImage src="Images/user.png"></EditableImage>
-    <EditableField type="Text" name="LOL"></EditableField>
+    <EditableField type="Text" name="Imie" value="ASD"></EditableField>
+    <EditableField type="Text" name="Nazwisko" value="ASD"></EditableField>
+
+    <EditableField type="Date" name="Data Urodzenia" value="ASD"></EditableField>
+
+    
     </Background>
     </> 
   );

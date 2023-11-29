@@ -9,7 +9,7 @@ if(isset($_FILES["fileToUpload"])){
 
     if(file_exists("images/".$name) == false){
         echo "images/".$name;
-        SaveFile($Public_Path."/images/".$name, $_FILES["fileToUpload"]["tmp_name"]);
+       // SaveFile($Public_Path."/images/".$name, $_FILES["fileToUpload"]["tmp_name"]);
     }
     else{
         

@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: black;
 }
 
 code {
@@ -18,4 +19,26 @@ code {
 }
 .hidden{
   display: none;
+}
+.Field {
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Field-Spacing {
+  margin: 10px;
+
+}
+
+.Field-Header {
+  flex-grow: 1;
+}
+
+.Field-Input {
+  flex-grow: 3;
+}
+
+.Field-Button {
+  flex-grow: 1;
 }
