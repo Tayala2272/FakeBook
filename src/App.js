@@ -4,6 +4,7 @@ import EditableImage from './Components/EditableImage';
 import EditableField from './Components/EditableField';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
 
 function Thing(){
   return (
@@ -30,9 +31,7 @@ function App() {
        <Thing></Thing>
         
       </header>
-     <LoginSignUp/>
     </div>
     );}
-import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
 
 export default App;
