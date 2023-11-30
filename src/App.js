@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom/client';
 function Thing(){
   return (
     <>
+    
     <Background shit="sss">
     <EditableImage src="Images/user.png"></EditableImage>
     <EditableField type="Text" name="Imie" value="ASD"></EditableField>
@@ -15,7 +16,8 @@ function Thing(){
 
     <EditableField type="Date" name="Data Urodzenia" value="ASD"></EditableField>
 
-    
+    <EditableField type="email" name="Email" value="Email"></EditableField>
+    <EditableField type="Text" name="Nazwisko" value="ASD"></EditableField>
     </Background>
     </> 
   );
