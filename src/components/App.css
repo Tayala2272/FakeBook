@@ -1,0 +1,125 @@
+*{
+    color: #CFCDCE;
+}
+
+body{
+    background-color: #18191A;
+}
+
+.tlo{
+    background-image: linear-gradient(to bottom, #d2ecf7, #53c4f5);
+    height: 100%;
+}
+
+.zdjecie{
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+}
+
+.zdjecia-profilowe{
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.ikony{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav{
+    background-color: #242526;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.wysrodkowanie{
+    text-align: center;
+}
+
+.opcje{
+    background-color: #18191A;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.odstep{
+    margin-bottom: 25px;
+}
+
+.inne{
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 10px;
+}
+
+.posty{
+    background-color: #3A3B3C;
+    height: 1000px;
+    padding-top: 10px;
+}
+
+.lista{
+    background-color: #18191A;
+    padding: 20px;
+}
+
+
+.boczne{
+    width: 20%;
+    float: left;
+}
+
+.srodek{
+    width: 60%;
+    float: left;
+}
+
+.ustawienie{
+    height: 500px;
+}
+
+.wyszukiwanie{
+    background-color:#18191A;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 96%;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.center {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    margin-top: 100px;
+    border: 1px solid white;
+    background-color: #CFCDCE;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+  }
+
+.profil{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.info{
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.inne-pcje{
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px #888888;
+    color: black;
+}

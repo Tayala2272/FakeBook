@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
+import "bootstrap/dist/css/bootstrap.css";
+
+import StronaGlowna from "./components/StronaGlowna";
+
 function App() {
   return (
     <div>
-     <LoginSignUp/>
+      <StronaGlowna />
     </div>
   );
 }
