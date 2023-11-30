@@ -1,12 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
-import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
-function App() {
+import Background from './Components/Background';
+import EditableImage from './Components/EditableImage';
+import EditableField from './Components/EditableField';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function Thing(){
   return (
-    <div>
-     <LoginSignUp/>
-    </div>
+    <>
+    
+    <Background shit="sss">
+    <EditableImage src="Images/user.png"></EditableImage>
+    <EditableField type="Text" name="Imie" value="ASD"></EditableField>
+    <EditableField type="Text" name="Nazwisko" value="ASD"></EditableField>
+
+    <EditableField type="Date" name="Data Urodzenia" value="ASD"></EditableField>
+
+    <EditableField type="email" name="Email" value="Email"></EditableField>
+    <EditableField type="Text" name="Nazwisko" value="ASD"></EditableField>
+    </Background>
+    </> 
   );
 }
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+      
+       <Thing></Thing>
+        
+      </header>
+     <LoginSignUp/>
+    </div>
+    );}
+import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
 
 export default App;
