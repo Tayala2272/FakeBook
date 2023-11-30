@@ -1,9 +1,9 @@
-import "./App.css";
-import profilowe from "./zdj/kanye.png";
-import ustawienia from "./zdj/setting.ico";
-import profil from "./zdj/profil.png";
-import wyloguj from "./zdj/Door.ico";
-import dodaj from "./zdj/add.ico";
+import "../../App.css";
+import profilowe from "../img/kanye.png";
+import ustawienia from "../img/setting.ico";
+import profil from "../img/profil.png";
+import wyloguj from "../img/Door.ico";
+import dodaj from "../img/add.ico";
 import { useState } from "react";
 
 function Opcje() {

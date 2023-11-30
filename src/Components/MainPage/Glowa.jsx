@@ -1,5 +1,5 @@
-import "./App.css";
-import logo from "./zdj/fortnite_logo.png";
+import "././App.css";
+import logo from "../img/fortnite_logo.png";
 
 function Glowa() {
   return (

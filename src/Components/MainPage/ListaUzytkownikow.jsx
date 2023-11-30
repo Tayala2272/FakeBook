@@ -1,4 +1,4 @@
-import profil from "./zdj/profil.png";
+import profil from "../img/profil.png";
 
 const Osoba = (props) => {
   if (!props.name) return <h1>Nie masz znojomych, sadek</h1>;

@@ -1,4 +1,4 @@
-import profilowe from "./zdj/kanye.png";
+import profilowe from "../img/kanye.png";
 
 function ProfilUzytkownika() {
   return (

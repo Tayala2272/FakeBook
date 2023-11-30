@@ -1,0 +1,111 @@
+.upc {
+  max-width: 400px;
+  flex-direction: column;
+  gap: 8px;
+  background-color: rgb(255, 255, 255);
+  border: 12px solid;
+  border-radius: 12px;
+  border-color: rgba(212, 216, 221, 0.486);
+  height: 80vh;
+}
+.heading {
+  flex-direction: row;
+  justify-content: space-between;
+  place-items: center;
+  margin-top: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.profile-info {
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  gap: 20px;
+}
+.name-data-info {
+  text-align: start;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 32px;
+}
+.date {
+  font-style: italic;
+  font-size: small;
+  margin: 0;
+}
+.profile-info img {
+  height: 50px;
+  width: 50px;
+  border-radius: 9999px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.post-destriction {
+  text-align: left;
+  width: 350;
+}
+.post-destriction strong {
+  font-size: 20px;
+}
+.post-fotos img {
+  display: flex;
+  height: 350px;
+  width: 368px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.pasek {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.down-icon {
+  flex-direction: row;
+
+  align-items: center;
+}
+button {
+  width: 160px;
+  height: 32px;
+  border: 0;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  display: inline-block;
+  cursor: pointer;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.post-fotos {
+  display: flex;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+}
+.carusel {
+  overflow: hidden;
+  position: relative;
+}
+.strzalki {
+  position: absolute;
+  inset: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+.strzalki button {
+  padding: 4px;
+  width: auto;
+  border-radius: 10000px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  background-color: rgba(255, 255, 255, 0.466);
+  color: rgb(31 41 55);
+}
