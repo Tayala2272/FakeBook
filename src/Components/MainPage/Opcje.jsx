@@ -4,7 +4,6 @@ import ustawienia from "../img/setting.ico";
 import profil from "../img/profil.png";
 import wyloguj from "../img/Door.ico";
 import dodaj from "../img/add.ico";
-import { useState } from "react";
 import { Link } from 'react-router-dom';
 
 function Opcje() {

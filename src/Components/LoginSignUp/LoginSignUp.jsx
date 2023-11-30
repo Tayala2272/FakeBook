@@ -111,7 +111,7 @@
               <div key={field.name} className="input">
                 <div className='tooltip'>
                   <div className='tooltiptext'>{field.text}</div>
-                <img src={field.icon} width="30"/>
+                <img src={field.icon} width="30" alt="obraz"/>
                 </div>
                 <FormInput
                   name={field.name}
