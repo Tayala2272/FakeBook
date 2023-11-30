@@ -5,6 +5,7 @@ import profil from "../img/profil.png";
 import wyloguj from "../img/Door.ico";
 import dodaj from "../img/add.ico";
 import { useState } from "react";
+import { Link } from 'react-router-dom';
 
 function Opcje() {
   const guzior = () => {
@@ -22,12 +23,22 @@ function Opcje() {
         Dodaj Post
       </div>
       <div className="inne">
-        <img className="ikony" src={profil} alt="zdjecie_profilu" />
-        Profil
+        <Link to="/profil">
+          <img className="ikony" src={profil} alt="zdjecie_profilu" />
+          Profil
+        </Link>
       </div>
       <div className="inne">
-        <img className="ikony" src={ustawienia} alt="ustawienia" />
-        Ustawienia
+        <Link to="/ustawienia">
+          <img className="ikony" src={ustawienia} alt="ustawienia" />
+          Ustawienia
+        </Link>
+      </div>
+      <div className="inne">
+        <Link to="/logowanie">
+          <img className="ikony" src={ustawienia} alt="ustawienia" />
+          Logowanie
+        </Link>
       </div>
       <div className="inne">
         <img className="ikony" src={wyloguj} alt="wyloguj" />
