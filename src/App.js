@@ -1,6 +1,6 @@
 import "./bootstrap/dist/css/bootstrap.css";
 
-import StronaGlowna from "./components/StronaGlowna";
+import StronaGlowna from "./Components/StronaGlowna";
 
 function App() {
   return (
