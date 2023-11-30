@@ -30,8 +30,9 @@ function App() {
        <Thing></Thing>
         
       </header>
+     <LoginSignUp/>
     </div>
-  );
-}
+    );}
+import LoginSignUp from './Components/LoginSignUp/LoginSignUp';
 
 export default App;
