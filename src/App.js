@@ -1,6 +1,6 @@
 import "./App.css";
-import PostCard from "./components/PostCard";
-import PostCardManyPhoto from "./components/PostCardManyPhoto";
+import PostCard from "./Components/PostCard";
+import PostCardManyPhoto from "./Components/PostCardManyPhoto";
 
 const slides = [
   "https://www.hogansirishcottages.com/blog/wp-content/uploads/sites/8/2022/03/Feature-Image-Highest-mountains-in-Ireland.jpg",
