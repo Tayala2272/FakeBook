@@ -50,10 +50,35 @@ async function Insert(user, pass){
     console.log(`A document was inserted with the _id: ${result.insertedId}`);
   } finally {
      // Close the MongoDB client connection
-    await client.close();
+    //await client.close();
   }
 }
+async function SelectUser(user){
+  try {
+    //client.connect();
+    // Connect to the "insertDB" database and access its "haiku" collection
+    const database = client.db("Fakebook");
+    const users = database.collection("users");
 
+    //query and options to find record
+    const query = { username: user };
+    const options = {
+      // Sort matched documents in descending order by rating
+      sort: { "users.username": -1 },
+      // Include only the `title` and `imdb` fields in the returned document
+      projection: { _id: 0, username: 1, password: 1 },
+    };
+
+
+    // Insert the defined document into the "haiku" collection
+    const result = await users.findOne(query, options);
+    // Print the ID of the inserted document
+    console.log(`Username: ${result.username} <br> password: ${result.password}`);
+  } finally {
+     // Close the MongoDB client connection
+    //await client.close();
+  }
+}
 
 
 app.get('/user/register', (req, res) => {
@@ -62,6 +87,8 @@ app.get('/user/register', (req, res) => {
 })
 
 app.get('/user/login', (req, res) => {
+
+    SelectUser("NowyUser");
     res.send('Hello World!')
   }) 
 
